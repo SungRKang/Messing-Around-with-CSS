@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset = "UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blackjack</title>
+    <link rel="stylesheet" href="blackjack.css">
+    <script src="blackjack.js"></script>
+  </head>
+
+  <body>
+
+    <div class="half-circle">
+      <div id="dealer-cards">
+        <img class = "cards" id="hidden" src="./resources/cards/BACK.png">
+      </div>
+      <h2 id="current-bet">Bet: $ </span></h2>
+        <div id="betting-amount">$</div>
+        <div class="slidecontainer">
+          <input type="range" min="0" max="1000" value="0" class="slider" id="myRange">
+        </div>
+        <button class = "placeBet" id="add">Add</button>
+        <button class = "placeBet" id="remove">Remove</button>
+        <button class = "placeBet" id="play">Play</button>
+      <h2 id= "player-total">In Hand: $</h2>
+      <div id="prompts">
+        <button id="hit">Hit</button>
+        <button id="stay">Stay</button>
+      </div>
+      <div id="your-cards">
+        <div id="first-split">
+
+          
+        </div>
+        
+      </div>
+        
+    </div>
+  </body>
+</html>

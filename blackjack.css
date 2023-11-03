@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: black;
+  color:aliceblue;
+}
+
+.half-circle {
+  background-color: green;
+  width: 100%;
+  height: 90%;
+  border-bottom-left-radius: 100% 200%;
+  border-bottom-right-radius: 100% 200%;
+  position: absolute;
+  margin-top: 5%;
+  overflow:hidden;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+.placeBet{
+  cursor: pointer;
+}
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 10%; /* Full-width */
+  height: 5%; /* Specified height */
+  background: #d3d3d3; /* Grey background */
+  outline: none; /* Remove outline */
+  opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+  transition: opacity .2s;
+}
+
+/* Mouse-over effects */
+.slider:hover {
+  opacity: 1; /* Fully shown on mouse-over */
+}
+
+.cards {
+  height: 5%;
+  width: 5%;
+}
+
+#dealer-cards {
+  margin-top:5%;
+}
+
+#current-bet {
+  margin-top: 3%;
+}
+
+#bets {
+  margin-top:5%;
+}
+
+#prompts {
+  margin-top:5%;
+}
+
+#your-cards{
+  margin-top:2%;
+}
+
+#card1 {
+  margin-left: -5%;
+}
+#card2 {
+  transform: translate(-75%, 10%);
+}
+
+#card3 {
+  transform: translate(-150%, 20%);
+}
+
+#card4 {
+  transform: translate(-225%, 30%);
+}
+
+#card5 {
+  transform: translate(-290%, 40%);
+}
+#card6 {
+  transform: translate(-365%, 50%);
+}
+#card7 {
+  transform: translate(-440%, 60%);
+}
+
